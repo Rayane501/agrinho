@@ -1,15 +1,60 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Festejando Campo e Cidade Colorido</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <header>Festejando Campo e Cidade Colorido</header>
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0 1rem;
+  background: linear-gradient(135deg, #FFDEE9, #B5FFFC);
+  color: #333;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-  <section>
-    <h2>🌾 Campo & 🏙️ Cidade</h2>
-    <p>
-      O campo e a cidade representam dois mundos que se complementam. Enquanto o campo é fonte de alimentos, natureza e tranquilidad
+header {
+  background: #FF6F91;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 3px #d94f66;
+  border-radius: 10px;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+h2 {
+  color: #2E8B57;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+ul {
+  padding-left: 1.5rem;
+}
+
+section {
+  background: white;
+  padding: 1.5rem 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  margin-bottom: 2rem;
+}
+
+a {
+  color: #FF6F91;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 2rem;
+}
+
